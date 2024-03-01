@@ -4,11 +4,11 @@ Welcome to the Operating System Algorithms Repository! This repository contains 
 
 ## Algorithms Implemented
 
-1. **[Round Robin Scheduler](round_robin/README.md)**: This algorithm is a preemptive scheduler where each process is assigned a fixed time slice or quantum. Once a process consumes its quantum, it's moved to the back of the ready queue to await its turn again. This implementation demonstrates how round-robin scheduling can be achieved efficiently in C++.
+1. **[Round Robin Scheduler](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/round_robin_scheduler)**: This algorithm is a preemptive scheduler where each process is assigned a fixed time slice or quantum. Once a process consumes its quantum, it's moved to the back of the ready queue to await its turn again. This implementation demonstrates how round-robin scheduling can be achieved efficiently in C++.
 
-2. **[Priority Scheduler](priority_scheduler/README.md)**: Priority scheduling assigns priorities to each process, and the CPU is allocated to the process with the highest priority. In case of ties, a round-robin approach can be used. This implementation showcases how to implement priority scheduling and handle priorities effectively.
+2. **[Priority Scheduler](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/priority_scheduler)**: Priority scheduling assigns priorities to each process, and the CPU is allocated to the process with the highest priority. In case of ties, a round-robin approach can be used. This implementation showcases how to implement priority scheduling and handle priorities effectively.
 
-3. **[Shortest Job First (SJF)](shortest_job_first/README.md)**: SJF scheduling algorithm selects the process with the smallest execution time next. This implementation demonstrates how to implement SJF scheduling in C++.
+3. **[Shortest Job First (SJF)](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Shortest%20Job%20First)**: SJF scheduling algorithm selects the process with the smallest execution time next. This implementation demonstrates how to implement SJF scheduling in C++.
 
 4. **[First-Come, First-Served (FCFS)](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/FCFS)**: FCFS scheduling algorithm executes processes in the order they arrive in the ready queue. This implementation demonstrates how to implement FCFS scheduling in C++.
 
