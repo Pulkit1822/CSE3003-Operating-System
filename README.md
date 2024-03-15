@@ -1,6 +1,6 @@
 # Operating System Algorithms Repository
 
-Welcome to the Operating System Algorithms Repository! This repository contains implementations of various operating system scheduling algorithms in C++. Whether you're a student studying operating systems or a developer looking to understand these algorithms better, this repository aims to provide clear and concise implementations along with explanations to aid your learning.
+Welcome to the OS Algorithms Repository! This repository contains implementations of various OS algorithms in C++. Whether you're a student studying OS or a developer looking to understand these algorithms better, this repository aims to provide clear and concise implementations along with explanations to aid your learning.
 
 ## Algorithms Implemented
 
@@ -17,7 +17,7 @@ Welcome to the Operating System Algorithms Repository! This repository contains 
 
 - **[Producer-Consumer Problem](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Inter%20process%20Communication%20%E2%80%93%20Semaphore/Producer-Consumer%20Problem)**: It illustrates the classic producer-consumer problem using semaphores for synchronization. It sets up a shared buffer where the producer produces items and the consumer consumes them. Semaphores are employed to coordinate access to the buffer, preventing race conditions and ensuring orderly item production and consumption between the two processes.
 
-6. **[Banker's Algorithm](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Bankers%20Algorithm)**: The Banker's Algorithm in operating systems is a resource allocation and deadlock avoidance algorithm. It helps prevent deadlock conditions by ensuring that resource allocation does not lead to a deadlock. The algorithm is based on the concept of a bank, where the bank never allocates more resources than what is available. It checks whether granting resources would lead to a deadlock and only grants resources if it would not result in a deadlock. It is mainly used to prevent deadlock.
+6. **[Banker's Algorithm](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Bankers%20Algorithm)**: The Banker's Algorithm in OS is a resource allocation and deadlock avoidance algorithm. It helps prevent deadlock conditions by ensuring that resource allocation does not lead to a deadlock. The algorithm is based on the concept of a bank, where the bank never allocates more resources than what is available. It checks whether granting resources would lead to a deadlock and only grants resources if it would not result in a deadlock. It is mainly used to prevent deadlock.
 
 7. **[Resource Allocation Graph](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Resource%20Allocation%20Graph)**: The Resource Allocation Graph (RAG) is a graphical representation that provides information about the state of the system in terms of processes and resources. It shows which resources are held by which processes and can help identify deadlocks. The vertices in a RAG represent processes and resources, with processes typically represented by circles and resources by rectangles. The edges in a RAG represent assignments (resources assigned to processes) and requests (processes waiting for resources). If there is a cycle in the RAG, it indicates a deadlock.
 
