@@ -12,6 +12,8 @@ Welcome to the Operating System Algorithms Repository! This repository contains 
 
 4. **[First-Come, First-Served (FCFS)](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/FCFS)**: FCFS scheduling algorithm executes processes in the order they arrive in the ready queue. This implementation demonstrates how to implement FCFS scheduling in C++.
 
+5. **[Inter Process Communication - Semaphore]
+
 
 ## How to Use
 
