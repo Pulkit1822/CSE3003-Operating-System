@@ -29,11 +29,6 @@ Contributions to this repository are welcome and encouraged. If you would like t
 2. Ensure any new code is well-documented and follows the established coding style.
 3. Create a pull request with a clear description of your changes and their rationale.
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for educational and non-commercial purposes.
-
-
 ## Feedback
 
 If you have any feedback, suggestions, or questions regarding this repository, please feel free to open an issue or contact me below on any of the platforms you prefer 😊
