@@ -12,7 +12,10 @@ Welcome to the Operating System Algorithms Repository! This repository contains 
 
 4. **[First-Come, First-Served (FCFS)](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/FCFS)**: FCFS scheduling algorithm executes processes in the order they arrive in the ready queue. This implementation demonstrates how to implement FCFS scheduling in C++.
 
-5. **[Inter Process Communication - Semaphore]
+5. **_[Inter Process Communication - Semaphore]()_**:
+ - **[Semaphore](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Inter%20process%20Communication%20%E2%80%93%20Semaphore/Semaphore)**: It demonstrates the implementation of semaphores for synchronization in a producer-consumer scenario. It creates a semaphore, allows the producer to produce items, and the consumer to consume them from a shared buffer. Semaphores are used to control access to the buffer and ensure proper synchronization between the producer and consumer processes.
+
+- **[Producer-Consumer Problem](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/Inter%20process%20Communication%20%E2%80%93%20Semaphore/Producer-Consumer%20Problem)**: It illustrates the classic producer-consumer problem using semaphores for synchronization. It sets up a shared buffer where the producer produces items and the consumer consumes them. Semaphores are employed to coordinate access to the buffer, preventing race conditions and ensuring orderly item production and consumption between the two processes.
 
 
 ## How to Use
