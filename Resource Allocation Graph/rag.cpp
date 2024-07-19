@@ -3,47 +3,44 @@
 
 using namespace std;
 
-int getCountOfResourceCollisions(int numberOfProcesses, vector<int> processes,
-    int numberOfRows, int numberOfColumns, vector<vector<int>> resources, int resourceToCheck) {
-    int countOfCollisions = 0;
-    for (int i = 0; i < numberOfRows; ++i) {
-        for (int j = 0; j < numberOfColumns; ++j) {
-            if (resources[i][j] == resourceToCheck) {
-                ++countOfCollisions;
+int getCountOfResourceCollisions(int n, vector<int> p, int r, int c, vector<vector<int>> res, int rt) {
+    int count = 0;
+    for (int i = 0; i < r; ++i) {
+        for (int j = 0; j < c; ++j) {
+            if (res[i][j] == rt) {
+                ++count;
             }
         }
     }
-    return countOfCollisions;
+    return count;
 }
 
 int main() {
-    int numberOfProcesses, numberOfRows, numberOfColumns, resourceToCheck;
-    cout << "I have implemented a matrix for resource allocation" << endl;
-    cout << "Enter the number of processes: " ;
-    cin >> numberOfProcesses;
-    vector<int> processes(numberOfProcesses);
-    cout << "Enter Process Numbers (0-" << numberOfProcesses-1 << " with spaces): " ;
-    for (int i = 0; i < numberOfProcesses; ++i) {
-        cin >> processes[i];
+    int n, r, c, rt;
+    cout << "Enter the number of processes: ";
+    cin >> n;
+    vector<int> p(n);
+    cout << "Enter Process Numbers (0-" << n-1 << " with spaces): ";
+    for (int i = 0; i < n; ++i) {
+        cin >> p[i];
     }
     cout << "Enter number of rows for resource array: ";
-    cin >> numberOfRows;
+    cin >> r;
     cout << "Enter number of columns for resource array: ";
-    cin >> numberOfColumns;
-    vector<vector<int>> resources(numberOfRows, vector<int>(numberOfColumns));
+    cin >> c;
+    vector<vector<int>> res(r, vector<int>(c));
     cout << "Enter resources (with spaces): " << endl;
-    for (int i = 0; i < numberOfRows; ++i) {
-        for (int j = 0; j < numberOfColumns; ++j) {
-            cin >> resources[i][j];
+    for (int i = 0; i < r; ++i) {
+        for (int j = 0; j < c; ++j) {
+            cin >> res[i][j];
         }
     }
 
-    cout << "Enter a resource to check if collision happens" << endl;
-    cin >> resourceToCheck;
+    cout << "Enter a resource to check if collision happens: ";
+    cin >> rt;
 
-    int countOfCollisions = getCountOfResourceCollisions(numberOfProcesses, processes,
-        numberOfRows, numberOfColumns, resources, resourceToCheck);
+    int count = getCountOfResourceCollisions(n, p, r, c, res, rt);
 
-    cout << "Counts of deadlock = " << countOfCollisions << endl;
+    cout << "Counts of deadlock = " << count << endl;
     return 0;
 }
