@@ -1,7 +1,12 @@
-# Operating System Algorithms Repository
-![OS](https://github.com/Pulkit1822/Personal-Portfolio/blob/main/public/projects/OS.jpg)
+<p align="center">
+  <a href="https://github.com/Pulkit1822/CSE3003-Operating-System">
+    <img src="https://github.com/Pulkit1822/Personal-Portfolio/blob/main/public/projects/OS.jpg" height="128">
+  </a>
+  <h1 align="center">CSE3003 - Operating System</h1>
+</p>
 
-Welcome to the OS Algorithms Repository! This repository contains implementations of various OS algorithms in C++. Whether you're a student studying OS or a developer looking to understand these algorithms better, this repository aims to provide clear and concise implementations along with explanations to aid your learning.
+
+Welcome to the CSE3003 - Operating System Repository! This repository contains implementations of various OS algorithms in C++. Whether you're a student studying OS or a developer looking to understand these algorithms better, this repository aims to provide clear and concise implementations along with explanations to aid your learning.
 
 ## Algorithms Implemented
 
