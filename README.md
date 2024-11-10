@@ -8,6 +8,12 @@
 
 Welcome to the CSE3003 - Operating System Repository! This repository contains implementations of various OS algorithms in C++. Whether you're a student studying OS or a developer looking to understand these algorithms better, this repository aims to provide clear and concise implementations along with explanations to aid your learning.
 
+## Result
+
+Here are my scores:
+![Result](https://github.com/Pulkit1822/CSE3003-Operating-System/blob/main/content/result.png)
+
+
 ## What is this project all about?
 This project is a comprehensive collection of various Operating System (OS) algorithms implemented in C++. It aims to provide a clear understanding of these algorithms through well-documented code and explanations. The repository is designed to be a valuable resource for students, developers, and anyone interested in learning about OS algorithms.
 
