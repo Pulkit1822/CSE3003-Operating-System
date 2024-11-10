@@ -39,3 +39,17 @@ ___
 - Process ID, burst time, waiting time, and turnaround time for each process.
 - Average waiting time and average turnaround time.
 ___
+
+## How to run this project?
+To run the priority scheduler project, follow these steps:
+1. Clone the repository to your local machine using `git clone https://github.com/Pulkit1822/CSE3003-Operating-System.git`.
+2. Navigate to the `priority_scheduler` directory.
+3. Compile the code using a C++ compiler. For example, you can use `g++ priority_scheduler.cpp -o priority_scheduler`.
+4. Run the compiled program using `./priority_scheduler`.
+5. Follow the on-screen instructions to input the number of processes, burst times, and priorities.
+
+## Contribution guidelines
+Contributions to this project are welcome. If you would like to contribute:
+1. Fork the repository and create your branch from `main`.
+2. Ensure any new code is well-documented and follows the established coding style.
+3. Create a pull request with a clear description of your changes and their rationale.

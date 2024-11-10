@@ -47,3 +47,17 @@ ___
 - The producer process prints the items it produces.
 - The consumer process prints the items it consumes.
 ___
+
+## How to run this project?
+To run the semaphore example project, follow these steps:
+1. Clone the repository to your local machine using `git clone https://github.com/Pulkit1822/CSE3003-Operating-System.git`.
+2. Navigate to the `Inter process Communication – Semaphore/Semaphore` directory.
+3. Compile the code using a C++ compiler. For example, you can use `g++ semaphore.cpp -o semaphore`.
+4. Run the compiled program using `./semaphore`.
+5. Follow the on-screen instructions to observe the producer and consumer processes in action.
+
+## Contribution guidelines
+Contributions to this project are welcome. If you would like to contribute:
+1. Fork the repository and create your branch from `main`.
+2. Ensure any new code is well-documented and follows the established coding style.
+3. Create a pull request with a clear description of your changes and their rationale.

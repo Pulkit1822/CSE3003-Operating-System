@@ -8,6 +8,34 @@
 
 Welcome to the CSE3003 - Operating System Repository! This repository contains implementations of various OS algorithms in C++. Whether you're a student studying OS or a developer looking to understand these algorithms better, this repository aims to provide clear and concise implementations along with explanations to aid your learning.
 
+## What is this project all about?
+This project is a comprehensive collection of various Operating System (OS) algorithms implemented in C++. It aims to provide a clear understanding of these algorithms through well-documented code and explanations. The repository is designed to be a valuable resource for students, developers, and anyone interested in learning about OS algorithms.
+
+## How is this project made?
+This project is made using C++ programming language. Each algorithm is implemented in its own directory with a corresponding README file that explains the algorithm's logic and how to use the implementation. The project uses standard C++ libraries and follows best practices for coding and documentation.
+
+## What makes this project the best?
+This project stands out due to its comprehensive coverage of various OS algorithms, clear and concise code implementations, and detailed explanations. Each algorithm is implemented in a way that is easy to understand and follow, making it an excellent learning resource. The project also includes example usage and code analysis sections for each algorithm, providing a deeper understanding of how the algorithms work.
+
+## How is it better?
+Compared to similar projects, this repository offers a more detailed and structured approach to learning OS algorithms. The code is well-documented, and each algorithm is accompanied by a README file that explains the logic and usage. This makes it easier for users to understand and experiment with the algorithms. Additionally, the project covers a wide range of OS algorithms, providing a comprehensive learning resource.
+
+## What new technology has been used?
+This project leverages the C++ programming language and standard libraries to implement the OS algorithms. It also uses modern C++ features and best practices to ensure the code is efficient, readable, and maintainable. The project is designed to be easily extensible, allowing users to add new algorithms or modify existing ones.
+
+## How to run this project?
+To run this project, follow these steps:
+1. Clone the repository to your local machine using `git clone https://github.com/Pulkit1822/CSE3003-Operating-System.git`.
+2. Navigate to the directory of the algorithm you want to run.
+3. Follow the instructions provided in the README file of the respective algorithm to compile and run the code.
+4. Experiment with different inputs and configurations to observe the behavior of the algorithm.
+
+## Contribution guidelines
+Contributions to this repository are welcome and encouraged. If you would like to contribute:
+1. Fork the repository and create your branch from `main`.
+2. Ensure any new code is well-documented and follows the established coding style.
+3. Create a pull request with a clear description of your changes and their rationale.
+
 ## Algorithms Implemented
 
 1. **[Round Robin Scheduler](https://github.com/Pulkit1822/CSE3003-Operating_System/tree/main/round_robin_scheduler)**: This algorithm is a preemptive scheduler where each process is assigned a fixed time slice or quantum. Once a process consumes its quantum, it's moved to the back of the ready queue to await its turn again. This implementation demonstrates how round-robin scheduling can be achieved efficiently in C++.
